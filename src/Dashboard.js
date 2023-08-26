@@ -1,6 +1,7 @@
 import React from 'react'
 import Chart from "chart.js/auto";
 import Linechart from './Linechart';
+import Barchart from './Barchart';
 function Dashboard() {
 
     return (
@@ -63,7 +64,9 @@ function Dashboard() {
                 <div className='m-5 bg-white p-5 rounded-md '>
                     <Linechart label="Pending" />
                 </div>
-
+                <div className='m-5 bg-white p-5 rounded-md '>
+                    <Barchart label="Pending" />
+                </div>
             </div>
         </>
     )
