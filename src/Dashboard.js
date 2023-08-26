@@ -1,6 +1,8 @@
 import React from 'react'
-
+import Chart from "chart.js/auto";
+import Linechart from './Linechart';
 function Dashboard() {
+
     return (
         <>
             <div className='m-5 bg-white p-5 rounded-md  grid lg:gap-20 gap-5 lg:grid-cols-4 lg:grid-rows-1 sm:grid-cols-1 sm:grid-rows-4'>
@@ -53,6 +55,15 @@ function Dashboard() {
                     </div>
 
                 </div>
+            </div>
+            <div className=' grid lg:gap-20 gap-5 lg:grid-cols-2 lg:grid-rows-1 sm:grid-cols-1 sm:grid-rows-2'>
+                <div className='m-5 bg-white p-5 rounded-md '>
+                    <Linechart label="Efficiency" />
+                </div>
+                <div className='m-5 bg-white p-5 rounded-md '>
+                    <Linechart label="Pending" />
+                </div>
+
             </div>
         </>
     )

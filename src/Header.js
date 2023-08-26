@@ -51,7 +51,7 @@ function Header() {
         <Link to="/"><Typography
           as="a"
           href="#"
-          className="mr-4 cursor-pointer py-1.5 font-medium"
+          className="font-extrabold mr-4 cursor-pointer py-1.5"
         >
           Eliscops
         </Typography></Link>
