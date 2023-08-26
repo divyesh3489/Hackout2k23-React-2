@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-This project is created by MERN stack Application . So , if you want to run this project then run below command.
+This project is created by MERN stack Application . So , if you want to run this project then run below command in this project directory.
 
 ### 'npm install '
 
