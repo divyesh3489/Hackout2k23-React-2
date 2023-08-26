@@ -5,6 +5,7 @@ import Footer from "./Footer"
 import Home from "./Home"
 import About from "./About"
 import Signin from './Signin';
+import Dashboard from './Dashboard';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/signin" element={<Signin />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
         <Footer />
       </Router>
